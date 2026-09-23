@@ -3,8 +3,8 @@
 📍 **Tokyo** | 🛡️ **Guardrails for AI coding agents** | 🗂️ **Ops strategist by day**
 
 I design operations for a living and write Rust and Zig after hours.
-Most of what's here started the same way: an agent did something on my machine
-I didn't expect, so I built the thing that would have stopped it.
+I build tools that check what AI coding agents do before I trust it:
+the commands they run, the software they change, and the pull requests they open.
 
 ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Zig](https://img.shields.io/badge/-Zig-F7A41D?style=flat-square&logo=zig&logoColor=white)
@@ -15,36 +15,36 @@ I didn't expect, so I built the thing that would have stopped it.
 
 ## Start Here
 
-- 🧿 **[omamori](https://github.com/yottayoshida/omamori)** - A charm for your shell: blocks the dangerous commands your AI CLI tries to run
-- 🤨 **[sideeye](https://github.com/yottayoshida/sideeye)** - Breaks your software's world and brings back the smallest counterexample. It doesn't believe you.
-- 🔎 **[jev-intent-review](https://github.com/yottayoshida/jev-intent-review)** - Did the PR do what it said? Checks it against the intent, across the whole repo
+- 🧿 **[omamori](https://github.com/yottayoshida/omamori)** - Stop `rm -rf` before your agent finds it. Blocks dangerous commands that AI CLI tools try to run.
+  `v1.2.1` on crates.io and Homebrew
+- 🤨 **[sideeye](https://github.com/yottayoshida/sideeye)** - Kills your program mid-write and brings back the smallest reproducible counterexample. It doesn't believe you.
+  `v1.6.0` on Homebrew and GitHub Releases
+- 🔎 **[jev-intent-review](https://github.com/yottayoshida/jev-intent-review)** - Did the PR do what it said? Checks it against the intent, including code the diff didn't touch.
+  `v0.1.1` on npm
 
-## Current Projects
+## Also
 
-### Guardrails & Verification
-
-- 🧿 **[omamori](https://github.com/yottayoshida/omamori)** - Stop `rm -rf` before your agent finds it
-- 🤨 **[sideeye](https://github.com/yottayoshida/sideeye)** - Crash-consistency counterexamples, deterministic and reproducible
-- 🔎 **[jev-intent-review](https://github.com/yottayoshida/jev-intent-review)** - Review the intent, not just the diff
-- 🧪 **[jevfuzz](https://github.com/yottayoshida/jevfuzz)** - Metamorphic stability testing for Jev decision functions
-- 🍺 **[homebrew-tap](https://github.com/yottayoshida/homebrew-tap)** - `brew install` for omamori and sideeye
-
-### Experiments
-
+- 🧪 **[jevfuzz](https://github.com/yottayoshida/jevfuzz)** - Change the order, check the decision: does [Jev](https://docs.typesafe.ai/introduction) (a small model for fixed questions) give the same answer when nothing meaningful changed?
 - 🎰 **[randomware](https://github.com/yottayoshida/randomware)** - A slot machine for software: real public APIs go in, generated apps come out
 
-## Resting
+## Writing
 
-Not maintained anymore, but they still work.
+In Japanese, on [Zenn](https://zenn.dev/yottayoshida).
+
+- [rm -rf を Trash に変えるだけのツールを作ったら、AIが無効化してきた](https://zenn.dev/yottayoshida/articles/omamori-ai-cli-safety-guard) - I made `rm -rf` go to the Trash, and the AI turned it off
+- [もう.envにAPIキーを平文で置くのはやめた](https://zenn.dev/yottayoshida/articles/llm-key-ring-secure-api-key-management) - No more plaintext API keys in `.env`
+- [RAGを作るのではなく、検索される知識を運用する](https://zenn.dev/yottayoshida/articles/rag-knowledge-ops-agent-search) - Don't build a RAG; run the knowledge it searches
+
+<details>
+<summary>Resting — no longer maintained, but they still work</summary>
 
 - 🔑 **[llm-key-ring](https://github.com/yottayoshida/llm-key-ring)** - LLM API keys in macOS Keychain, not in plaintext `.env`
-- 🐣 **[clawd-cardputer](https://github.com/yottayoshida/clawd-cardputer)** - A tamagotchi on M5Stack Cardputer that reacts to Claude Code
-- ⌨️ **[cardputer-launcher-sdk](https://github.com/yottayoshida/cardputer-launcher-sdk)** - Keyboard-first app launcher for M5Stack Cardputer ADV
 - 🐍 **[modern-python-guidance](https://github.com/yottayoshida/modern-python-guidance)** - Stop LLMs from writing 2019 Python
 - 📐 **[intent-diff](https://github.com/yottayoshida/intent-diff)** - Intent-vs-behavior diff for pull requests
-- 🗾 **[hyakkei](https://github.com/yottayoshida/hyakkei)** - Dashboards on the Japan Digital Agency Design System, in your browser (paused)
+- 🗾 **[hyakkei](https://github.com/yottayoshida/hyakkei)** - Dashboards on the Japan Digital Agency Design System, in your browser
+- 🐣 **[clawd-cardputer](https://github.com/yottayoshida/clawd-cardputer)** - A tamagotchi on M5Stack Cardputer that reacts to Claude Code
+- ⌨️ **[cardputer-launcher-sdk](https://github.com/yottayoshida/cardputer-launcher-sdk)** - Keyboard-first app launcher for M5Stack Cardputer ADV
 
-## Elsewhere
+</details>
 
-- ✍️ **[Zenn](https://zenn.dev/yottayoshida)** - Articles in Japanese
-- 🐦 **[X](https://x.com/yottayoshida)** - @yottayoshida
+🐦 [@yottayoshida](https://x.com/yottayoshida)
