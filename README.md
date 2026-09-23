@@ -16,24 +16,16 @@ the commands they run, the software they change, and the pull requests they open
 ## Start Here
 
 - 🧿 **[omamori](https://github.com/yottayoshida/omamori)** - Stop `rm -rf` before your agent finds it. Blocks dangerous commands that AI CLI tools try to run.
-  `v1.2.1` on crates.io and Homebrew
+  On crates.io and Homebrew
 - 🤨 **[sideeye](https://github.com/yottayoshida/sideeye)** - Kills your program mid-write and brings back the smallest reproducible counterexample. It doesn't believe you.
-  `v1.6.0` on Homebrew and GitHub Releases
+  On Homebrew and GitHub Releases
 - 🔎 **[jev-intent-review](https://github.com/yottayoshida/jev-intent-review)** - Did the PR do what it said? Checks it against the intent, including code the diff didn't touch.
-  `v0.1.1` on npm
+  On npm
 
 ## Also
 
 - 🧪 **[jevfuzz](https://github.com/yottayoshida/jevfuzz)** - Change the order, check the decision: does [Jev](https://docs.typesafe.ai/introduction) (a small model for fixed questions) give the same answer when nothing meaningful changed?
 - 🎰 **[randomware](https://github.com/yottayoshida/randomware)** - A slot machine for software: real public APIs go in, generated apps come out
-
-## Writing
-
-In Japanese, on [Zenn](https://zenn.dev/yottayoshida).
-
-- [rm -rf を Trash に変えるだけのツールを作ったら、AIが無効化してきた](https://zenn.dev/yottayoshida/articles/omamori-ai-cli-safety-guard) - I made `rm -rf` go to the Trash, and the AI turned it off
-- [もう.envにAPIキーを平文で置くのはやめた](https://zenn.dev/yottayoshida/articles/llm-key-ring-secure-api-key-management) - No more plaintext API keys in `.env`
-- [RAGを作るのではなく、検索される知識を運用する](https://zenn.dev/yottayoshida/articles/rag-knowledge-ops-agent-search) - Don't build a RAG; run the knowledge it searches
 
 <details>
 <summary>Resting — no longer maintained, but they still work</summary>
@@ -47,4 +39,10 @@ In Japanese, on [Zenn](https://zenn.dev/yottayoshida).
 
 </details>
 
-🐦 [@yottayoshida](https://x.com/yottayoshida)
+## Writing
+
+Articles in Japanese on [Zenn](https://zenn.dev/yottayoshida). Short posts on [X](https://x.com/yottayoshida).
+
+- [rm -rf を Trash に変えるだけのツールを作ったら、AIが無効化してきた](https://zenn.dev/yottayoshida/articles/omamori-ai-cli-safety-guard) - I made `rm -rf` go to the Trash, and the AI turned it off
+- [もう.envにAPIキーを平文で置くのはやめた](https://zenn.dev/yottayoshida/articles/llm-key-ring-secure-api-key-management) - No more plaintext API keys in `.env`
+- [RAGを作るのではなく、検索される知識を運用する](https://zenn.dev/yottayoshida/articles/rag-knowledge-ops-agent-search) - Don't build a RAG; run the knowledge it searches
