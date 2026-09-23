@@ -15,12 +15,12 @@ the commands they run, the software they change, and the pull requests they open
 
 ## Start Here
 
-- 🧿 **[omamori](https://github.com/yottayoshida/omamori)** - Stop `rm -rf` before your agent finds it. Blocks dangerous commands that AI CLI tools try to run.
-  On crates.io and Homebrew
-- 🤨 **[sideeye](https://github.com/yottayoshida/sideeye)** - Kills your program mid-write and brings back the smallest reproducible counterexample. It doesn't believe you.
-  On Homebrew and GitHub Releases
-- 🔎 **[jev-intent-review](https://github.com/yottayoshida/jev-intent-review)** - Did the PR do what it said? Checks it against the intent, including code the diff didn't touch.
-  On npm
+- 🧿 **[omamori](https://github.com/yottayoshida/omamori)** - Stop `rm -rf` before your agent finds it. Blocks dangerous commands that AI CLI tools try to run.\
+  Install from crates.io or Homebrew.
+- 🤨 **[sideeye](https://github.com/yottayoshida/sideeye)** - Kills your program mid-write and brings back the smallest reproducible counterexample. It doesn't believe you.\
+  Install from Homebrew or GitHub Releases.
+- 🔎 **[jev-intent-review](https://github.com/yottayoshida/jev-intent-review)** - Did the PR do what it said? Checks it against the intent, including code the diff didn't touch.\
+  Install from npm.
 
 ## Also
 
