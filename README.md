@@ -22,6 +22,7 @@ the commands they run and the software they change.
 
 ## Also
 
+- 🗜️ **[lossless-compaction](https://github.com/yottayoshida/lossless-compaction)** - Compacts a Claude Code conversation without throwing anything away: old tool output moves to local files, and the agent gets it back with `recall` or `find`
 - 🧪 **[jevfuzz](https://github.com/yottayoshida/jevfuzz)** - Change the order, check the decision: does [Jev](https://docs.typesafe.ai/introduction) (a small model for fixed questions) give the same answer when nothing meaningful changed?
 - 🎰 **[randomware](https://github.com/yottayoshida/randomware)** - A slot machine for software: real public APIs go in, generated apps come out
 
