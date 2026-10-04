@@ -15,16 +15,17 @@ the commands they run and the software they change.
 
 ## Start Here
 
-- 🧿 **[omamori](https://github.com/yottayoshida/omamori)** - Stop `rm -rf` before your agent finds it. Blocks dangerous commands that AI CLI tools try to run.\
+- 🗜️ **[lossless-compaction](https://github.com/yottayoshida/lossless-compaction)** - Claude Code compaction that forgets nothing. Old tool output moves to files on your machine, and the agent gets it back word for word. No summary, no model call.\
+  Install as a Claude Code plugin.
+- 🧿 **[omamori](https://github.com/yottayoshida/omamori)** - Stop `rm -rf` before your agent finds it. Blocks destructive commands, and attempts to switch omamori off, in Claude Code, Codex CLI and Cursor.\
   Install from crates.io or Homebrew.
-- 🤨 **[sideeye](https://github.com/yottayoshida/sideeye)** - Kills your program mid-write and brings back the smallest reproducible counterexample. It doesn't believe you.\
+- 🤨 **[sideeye](https://github.com/yottayoshida/sideeye)** - Kills your program mid-write and shows what it left on disk, as a crash you can replay. It has caught real CLIs losing data. It doesn't believe you.\
   Install from Homebrew or GitHub Releases.
 
 ## Also
 
-- 🗜️ **[lossless-compaction](https://github.com/yottayoshida/lossless-compaction)** - Compacts a Claude Code conversation without throwing anything away: old tool output moves to local files, and the agent gets it back with `recall` or `find`
-- 🧪 **[jevfuzz](https://github.com/yottayoshida/jevfuzz)** - Change the order, check the decision: does [Jev](https://docs.typesafe.ai/introduction) (a small model for fixed questions) give the same answer when nothing meaningful changed?
-- 🎰 **[randomware](https://github.com/yottayoshida/randomware)** - A slot machine for software: real public APIs go in, generated apps come out
+- 🧪 **[jevfuzz](https://github.com/yottayoshida/jevfuzz)** - Find the input that flips the decision. Rewords inputs to a [Jev](https://docs.typesafe.ai/introduction) decision function in ways that shouldn't matter, and keeps the smallest one that changes the answer as a test
+- 🎰 **[randomware](https://github.com/yottayoshida/randomware)** - A slot machine for software: spin real public APIs, get a working app built by GPT-5.6, or an honest death certificate. [Try it live](https://randomware.randomware.workers.dev/)
 
 <details>
 <summary>Resting — no longer maintained, but they still work</summary>
