@@ -13,23 +13,20 @@ the commands they run and the software they change.
 ![Claude Code](https://img.shields.io/badge/-Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
 ![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)
 
-## Start Here
+## Products
 
-- 🗜️ **[lossless-compaction](https://github.com/yottayoshida/lossless-compaction)** - Claude Code compaction that forgets nothing. Old tool output moves to files on your machine, and the agent gets it back word for word. No summary, no model call.\
-  Install as a Claude Code plugin.
-- 🧿 **[omamori](https://github.com/yottayoshida/omamori)** - Stop `rm -rf` before your agent finds it. Blocks destructive commands, and attempts to switch omamori off, in Claude Code, Codex CLI and Cursor.\
-  Install from crates.io or Homebrew.
 - 🤨 **[sideeye](https://github.com/yottayoshida/sideeye)** - Kills your program mid-write and shows what it left on disk, as a crash you can replay. It has caught real CLIs losing data. It doesn't believe you.\
   Install from Homebrew or GitHub Releases.
-
-## Also
-
-- 🧪 **[jevfuzz](https://github.com/yottayoshida/jevfuzz)** - Find the input that flips the decision. Rewords inputs to a [Jev](https://docs.typesafe.ai/introduction) decision function in ways that shouldn't matter, and keeps the smallest one that changes the answer as a test
+- 🧿 **[omamori](https://github.com/yottayoshida/omamori)** - Stop `rm -rf` before your agent finds it. Blocks destructive commands, and attempts to switch omamori off, in Claude Code, Codex CLI and Cursor.\
+  Install from crates.io or Homebrew.
+- 🗜️ **[lossless-compaction](https://github.com/yottayoshida/lossless-compaction)** - Claude Code compaction that forgets nothing. Old tool output moves to files on your machine, and the agent gets it back word for word. No summary, no model call.\
+  Install as a Claude Code plugin.
 - 🎰 **[randomware](https://github.com/yottayoshida/randomware)** - A slot machine for software: spin real public APIs, get a working app built by GPT-5.6, or an honest death certificate. [Try it live](https://randomware.randomware.workers.dev/)
 
 <details>
 <summary>Resting — no longer maintained, but they still work</summary>
 
+- 🧪 **[jevfuzz](https://github.com/yottayoshida/jevfuzz)** - Find the input that flips the decision. Rewords inputs to a [Jev](https://docs.typesafe.ai/introduction) decision function in ways that shouldn't matter, and keeps the smallest one that changes the answer as a test
 - 🔎 **[jev-intent-review](https://github.com/yottayoshida/jev-intent-review)** - Checks a PR against its stated intent, beyond the diff. Stopped: in its own evaluation, a frontier model given the same PR found more
 - 🔑 **[llm-key-ring](https://github.com/yottayoshida/llm-key-ring)** - LLM API keys in macOS Keychain, not in plaintext `.env`
 - 🐍 **[modern-python-guidance](https://github.com/yottayoshida/modern-python-guidance)** - Stop LLMs from writing 2019 Python
